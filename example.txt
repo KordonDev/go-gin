@@ -1,0 +1,3 @@
+curl http://localhost:8888/videos -u user:pass -H 'Content-Type: application/json' --data-raw '{"title":"Lord of the rings","description":"Destroy the ring","url":"http://youtube.com"}'
+
+curl http://localhost:8888/videos -u user:pass
