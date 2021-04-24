@@ -1,3 +1,5 @@
-curl http://localhost:8888/videos -u user:pass -H 'Content-Type: application/json' --data-raw '{"title":"Lord of the rings","description":"Destroy the ring","url":"http://youtube.com"}'
+curl http://localhost:8888/videos -u user:pass -H 'Content-Type: application/json' --data-raw '{"title":"Ring Lord","description":"Destroy the ring","url":"http://youtube.com", "author":{"firstname":"Udo","lastname":"Tim","age":0,"email":"udo.tim@email.com"}}'
+
+curl http://localhost:8888/videos -u user:pass -H 'Content-Type: application/json' --data-raw '{"title":"Ring Cool","description":"Destroy the ring","url":"http://youtube.com", "author":{"firstname":"Udo","lastname":"Tim","age":2,"email":"udo.tim@email.com"}}'
 
 curl http://localhost:8888/videos -u user:pass
